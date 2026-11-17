@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import { ProjectCard } from '../components/ProjectCard'
 import catsImage from '../assets/about-cats.jpeg'
 import { highlights } from '../data/highlights'
@@ -7,7 +9,18 @@ import { projects } from '../data/projects'
 const catPhotoCaption: string = 'My project managers'
 
 export function HomePage() {
+  const { pathname } = useLocation()
   const featuredProjects = projects.filter((project) => project.featured)
+
+  useEffect(() => {
+    if (pathname === '/') {
+      window.scrollTo({ top: 0 })
+      return
+    }
+
+    const sectionId = pathname.slice(1)
+    document.getElementById(sectionId)?.scrollIntoView()
+  }, [pathname])
 
   return (
     <>
@@ -37,11 +50,11 @@ export function HomePage() {
             >
               GitHub <span aria-hidden="true">↗</span>
             </a>
-            <a href="#contact">Email me</a>
+            <Link to="/contact">Email me</Link>
           </nav>
-          <a className="round-link" href="#work" aria-label="Jump to selected work">
+          <Link className="round-link" to="/work" aria-label="Jump to selected work">
             ↓
-          </a>
+          </Link>
         </div>
       </section>
 

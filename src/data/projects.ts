@@ -21,6 +21,7 @@ export const projects: Project[] = [
       'SQLite',
     ],
     image: reccoImage,
+    repositoryUrl: 'https://github.com/bhuvana-sridhara/Recco',
     featured: true,
   },
   
@@ -40,6 +41,7 @@ export const projects: Project[] = [
       'Vercel',
     ],
     image: pmosPrepImage,
+    liveUrl: 'https://pmos-prep.vercel.app/',
     featured: true,
   },
 

@@ -26,6 +26,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 96px;
 }
 
 body {
@@ -75,8 +76,12 @@ a:focus-visible {
 }
 
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
   min-height: 80px;
   justify-content: flex-end;
+  background: var(--paper);
   border-bottom: 1px solid var(--line);
 }
 
@@ -253,15 +258,6 @@ a:focus-visible {
 
 .section-label {
   margin-bottom: 48px;
-}
-
-.project-page__details h2 {
-  margin: 0;
-  font-family: var(--serif);
-  font-size: clamp(2.25rem, 5vw, 4.8rem);
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: -0.045em;
 }
 
 .project-list {
@@ -524,7 +520,7 @@ a:focus-visible {
 
 /* Project detail */
 .project-page {
-  padding: 72px 0 130px;
+  padding: 36px 0 64px;
 }
 
 .back-link {
@@ -533,12 +529,27 @@ a:focus-visible {
   text-decoration: none;
 }
 
-.project-page__header {
-  max-width: 960px;
-  margin: 100px 0 74px;
+.project-page__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(250px, 0.55fr);
+  gap: clamp(48px, 7vw, 96px);
+  align-items: start;
+  margin-top: 44px;
 }
 
-.project-page__header h1,
+.project-page__header {
+  max-width: 720px;
+}
+
+.project-page__header h1 {
+  margin: 20px 0 22px;
+  font-family: var(--serif);
+  font-size: clamp(3rem, 6vw, 5.75rem);
+  font-weight: 500;
+  line-height: 0.96;
+  letter-spacing: -0.04em;
+}
+
 .not-found h1 {
   margin: 28px 0 32px;
   font-family: var(--serif);
@@ -549,61 +560,62 @@ a:focus-visible {
 }
 
 .project-page__summary {
-  max-width: 710px;
+  max-width: 620px;
   margin: 0;
   color: var(--muted);
-  font-size: clamp(1.2rem, 2.3vw, 1.65rem);
-  line-height: 1.5;
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+  line-height: 1.55;
+}
+
+.project-page__overview {
+  max-width: 680px;
+  margin-top: 38px;
+}
+
+.project-page__overview > p:not(.eyebrow) {
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.project-page__sidebar {
+  width: 100%;
+  max-width: 340px;
+  justify-self: end;
 }
 
 .project-page__image {
   width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
   border: 1px solid var(--ink);
 }
 
-.project-page__details {
+.project-page__meta {
   display: grid;
-  grid-template-columns: 0.7fr 1.6fr;
-  gap: clamp(60px, 10vw, 150px);
-  padding-top: 96px;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  padding-top: 24px;
 }
 
-.project-page__details aside {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
-.project-page__details aside p {
+.project-page__meta > div > p:not(.detail-label) {
   margin: 7px 0 0;
   color: var(--muted);
-  line-height: 1.5;
-}
-
-.project-page__details section > p:not(.eyebrow) {
-  max-width: 720px;
-  margin: 38px 0 0;
-  color: var(--muted);
-  font-size: 1.12rem;
-  line-height: 1.75;
-}
-
-.project-page__details h2 {
-  margin-top: 24px;
+  font-size: 0.9rem;
+  line-height: 1.45;
 }
 
 .project-links {
   display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.placeholder-note {
-  padding: 20px;
-  border-left: 4px solid var(--accent);
-  background: var(--accent-soft);
-  color: var(--ink) !important;
-  font-size: 0.95rem !important;
+  grid-column: 1 / -1;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+  padding-top: 4px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 /* Not found */
@@ -628,6 +640,10 @@ a:focus-visible {
 
 /* Responsive */
 @media (max-width: 760px) {
+  html {
+    scroll-padding-top: 80px;
+  }
+
   .site-shell {
     width: min(100% - 32px, var(--max-width));
   }
@@ -694,8 +710,7 @@ a:focus-visible {
   .about-section,
   .highlight-row,
   .project-card,
-  .project-card:nth-child(even),
-  .project-page__details {
+  .project-card:nth-child(even) {
     grid-template-columns: 1fr;
   }
 
@@ -746,16 +761,26 @@ a:focus-visible {
   }
 
   .project-page {
-    padding: 48px 0 84px;
+    padding: 32px 0 72px;
   }
 
-  .project-page__header {
-    margin: 72px 0 48px;
+  .project-page__layout {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    margin-top: 36px;
   }
 
-  .project-page__details {
-    gap: 72px;
-    padding-top: 72px;
+  .project-page__header h1 {
+    font-size: clamp(3rem, 15vw, 5rem);
+  }
+
+  .project-page__overview {
+    margin-top: 34px;
+  }
+
+  .project-page__sidebar {
+    max-width: 360px;
+    justify-self: start;
   }
 
   .site-footer {
