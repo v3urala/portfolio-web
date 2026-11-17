@@ -222,7 +222,7 @@ export function HomePage() {
               rel="noreferrer"
             >
               <LinkedInIcon />
-              Connect on LinkedIn
+              LinkedIn
             </a>
           </div>
         </div>

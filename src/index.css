@@ -573,6 +573,7 @@ button:focus-visible {
 }
 
 .contact-copy-button {
+  border: 0;
   color: var(--ink);
   background: transparent;
   cursor: pointer;
