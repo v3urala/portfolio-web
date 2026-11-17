@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title">
+  <title id="title">Abstract color palette interface</title>
+  <rect width="1200" height="760" fill="#d7f36c"/>
+  <rect x="84" y="76" width="1032" height="608" rx="22" fill="#f8f6ef" stroke="#1b1b18" stroke-width="4"/>
+  <rect x="84" y="76" width="1032" height="74" rx="22" fill="#1b1b18"/>
+  <circle cx="130" cy="113" r="10" fill="#ff6542"/>
+  <circle cx="162" cy="113" r="10" fill="#d7f36c"/>
+  <circle cx="194" cy="113" r="10" fill="#8e7dff"/>
+  <rect x="132" y="204" width="440" height="424" rx="12" fill="#ff6542"/>
+  <text x="168" y="580" fill="#1b1b18" font-family="Arial, sans-serif" font-size="34" font-weight="700">#FF6542</text>
+  <rect x="616" y="204" width="452" height="114" rx="12" fill="#8e7dff"/>
+  <rect x="616" y="352" width="212" height="276" rx="12" fill="#d7f36c" stroke="#1b1b18" stroke-width="3"/>
+  <rect x="856" y="352" width="212" height="276" rx="12" fill="#1b1b18"/>
+  <circle cx="960" cy="488" r="58" fill="#f8f6ef"/>
+  <path d="M932 488l20 20 38-46" fill="none" stroke="#1b1b18" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

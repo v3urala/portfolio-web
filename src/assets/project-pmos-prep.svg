@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">Abstract appointment preparation interface</title>
+  <desc id="description">A minimal preparation workflow moving from three inputs to a structured report with a privacy check.</desc>
+  <rect width="1200" height="760" fill="#ffd5ca"/>
+  <circle cx="1090" cy="650" r="190" fill="#d7f36c"/>
+  <path d="M0 0h250L0 250z" fill="#8e7dff"/>
+  <rect x="84" y="76" width="1032" height="608" rx="22" fill="#f8f6ef" stroke="#171713" stroke-width="4"/>
+  <rect x="126" y="126" width="330" height="508" rx="14" fill="#ebe7dc"/>
+  <rect x="164" y="194" width="254" height="78" rx="12" fill="#fff" stroke="#cbc7bb" stroke-width="3"/>
+  <circle cx="204" cy="233" r="16" fill="#8e7dff"/>
+  <rect x="164" y="312" width="254" height="78" rx="12" fill="#fff" stroke="#cbc7bb" stroke-width="3"/>
+  <circle cx="204" cy="351" r="16" fill="#ff6542"/>
+  <rect x="164" y="430" width="254" height="78" rx="12" fill="#fff" stroke="#cbc7bb" stroke-width="3"/>
+  <circle cx="204" cy="469" r="16" fill="#d7f36c" stroke="#171713" stroke-width="3"/>
+  <path d="M488 380h92m-30-30 30 30-30 30" fill="none" stroke="#171713" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="614" y="126" width="460" height="508" rx="14" fill="#171713"/>
+  <rect x="664" y="196" width="360" height="78" rx="12" fill="#8e7dff"/>
+  <rect x="664" y="316" width="286" height="78" rx="12" fill="#ff6542"/>
+  <rect x="664" y="436" width="330" height="78" rx="12" fill="#d7f36c"/>
+  <path d="M952 538v24c0 26 18 45 48 56 30-11 48-30 48-56v-24l-48-18-48 18zm25 23 17 17 31-35" fill="none" stroke="#f8f6ef" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

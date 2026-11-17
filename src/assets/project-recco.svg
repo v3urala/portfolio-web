@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">Abstract movie recommendation interface</title>
+  <desc id="description">A minimal dark interface with three colorful movie cards and a recommendation panel.</desc>
+  <rect width="1200" height="760" fill="#8e7dff"/>
+  <circle cx="1084" cy="96" r="172" fill="#d7f36c"/>
+  <rect x="84" y="76" width="1032" height="608" rx="22" fill="#171713"/>
+  <rect x="124" y="124" width="226" height="448" rx="12" fill="#ff6542"/>
+  <circle cx="237" cy="276" r="66" fill="#171713"/>
+  <circle cx="237" cy="276" r="22" fill="#d7f36c"/>
+  <rect x="382" y="124" width="226" height="448" rx="12" fill="#d7f36c"/>
+  <path d="M431 357l64-148 64 148z" fill="#8e7dff" stroke="#171713" stroke-width="6"/>
+  <rect x="640" y="124" width="226" height="448" rx="12" fill="#8e7dff"/>
+  <path d="M681 212c82 18 130 88 144 184-92-22-134-86-144-184z" fill="#f8f6ef"/>
+  <rect x="898" y="124" width="178" height="448" rx="12" fill="#f8f6ef"/>
+  <circle cx="987" cy="262" r="48" fill="#ff6542"/>
+  <path d="M974 238l38 24-38 24z" fill="#171713"/>
+  <rect x="932" y="368" width="110" height="18" rx="9" fill="#171713"/>
+  <rect x="932" y="412" width="82" height="18" rx="9" fill="#8e7dff"/>
+  <rect x="932" y="456" width="56" height="18" rx="9" fill="#d7f36c"/>
+</svg>

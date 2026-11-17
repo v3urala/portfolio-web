@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title">
+  <title id="title">Abstract dashboard interface in cream, black, and coral</title>
+  <rect width="1200" height="760" fill="#f1eee6"/>
+  <circle cx="1072" cy="106" r="160" fill="#ff6542"/>
+  <rect x="94" y="80" width="1012" height="600" rx="16" fill="#171713"/>
+  <rect x="126" y="116" width="220" height="528" rx="10" fill="#282822"/>
+  <circle cx="162" cy="156" r="8" fill="#ff6542"/>
+  <rect x="186" y="150" width="104" height="12" rx="6" fill="#f1eee6" opacity=".86"/>
+  <rect x="150" y="220" width="144" height="10" rx="5" fill="#77766c"/>
+  <rect x="150" y="264" width="112" height="10" rx="5" fill="#77766c"/>
+  <rect x="150" y="308" width="156" height="10" rx="5" fill="#77766c"/>
+  <rect x="386" y="116" width="686" height="122" rx="10" fill="#f7f4ec"/>
+  <rect x="418" y="148" width="138" height="14" rx="7" fill="#171713"/>
+  <rect x="418" y="184" width="86" height="10" rx="5" fill="#a9a69d"/>
+  <circle cx="1018" cy="174" r="28" fill="#ff6542"/>
+  <rect x="386" y="270" width="326" height="374" rx="10" fill="#f7f4ec"/>
+  <rect x="746" y="270" width="326" height="374" rx="10" fill="#f7f4ec"/>
+  <path d="M430 546L480 462l54 34 54-136 76 70" fill="none" stroke="#ff6542" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="909" cy="457" r="108" fill="none" stroke="#dedad0" stroke-width="28"/>
+  <path d="M909 349a108 108 0 0 1 96 157" fill="none" stroke="#ff6542" stroke-width="28" stroke-linecap="round"/>
+</svg>
