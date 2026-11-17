@@ -8,6 +8,7 @@ export function Header() {
           Home
         </Link>
         <Link to="/work">Work</Link>
+        <Link to="/experience">Experience</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Let’s connect</Link>
       </nav>

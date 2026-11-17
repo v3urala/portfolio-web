@@ -69,6 +69,7 @@ export function HomePage() {
 
       <section
         className="highlights-section"
+        id="experience"
         aria-labelledby="highlights-title"
       >
         <p className="eyebrow section-label" id="highlights-title">

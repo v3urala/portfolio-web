@@ -120,10 +120,14 @@ a:focus-visible {
 .eyebrow,
 .detail-label {
   margin: 0;
-  font-size: 0.90rem;
+  font-size: 0.9rem;
   font-weight: 800;
   letter-spacing: 0.13em;
   text-transform: uppercase;
+}
+
+.eyebrow {
+  font-size: 0.98rem;
 }
 
 .eyebrow::before {
@@ -252,7 +256,7 @@ a:focus-visible {
 }
 
 .work-section {
-  padding: 96px 0 104px;
+  padding: 72px 0 104px;
   border-top: 1px solid var(--line);
 }
 
@@ -361,7 +365,7 @@ a:focus-visible {
 }
 
 .highlights-section {
-  padding: 88px 0 0;
+  padding: 64px 0 0;
   border-top: 1px solid var(--line);
 }
 
@@ -436,7 +440,7 @@ a:focus-visible {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 40px;
-  padding: 96px 0 104px;
+  padding: 72px 0 104px;
   border-top: 1px solid var(--line);
 }
 
@@ -470,8 +474,8 @@ a:focus-visible {
   max-width: 700px;
   margin: 24px 0 0;
   color: var(--muted);
-  font-size: clamp(1.12rem, 2vw, 1.35rem);
-  line-height: 1.65;
+  font-size: 1rem;
+  line-height: 1.7;
 }
 
 .about-section__copy > p:first-child {
@@ -482,7 +486,7 @@ a:focus-visible {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 40px;
-  padding: 104px 0 112px;
+  padding: 80px 0 112px;
   border-top: 1px solid var(--line);
 }
 
@@ -690,21 +694,21 @@ a:focus-visible {
   }
 
   .work-section {
-    padding: 72px 0 80px;
+    padding: 56px 0 80px;
   }
 
   .highlights-section {
-    padding: 72px 0 0;
+    padding: 56px 0 0;
   }
 
   .about-section {
-    padding: 72px 0 80px;
+    padding: 56px 0 80px;
   }
 
   .contact-section {
     grid-template-columns: 1fr;
     gap: 30px;
-    padding: 72px 0 80px;
+    padding: 56px 0 80px;
   }
 
   .about-section,
