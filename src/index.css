@@ -80,9 +80,20 @@ a:focus-visible {
   top: 0;
   z-index: 20;
   min-height: 80px;
-  justify-content: flex-end;
   background: var(--paper);
   border-bottom: 1px solid var(--line);
+}
+
+.site-logo {
+  display: inline-flex;
+  flex: 0 0 auto;
+  text-decoration: none;
+}
+
+.site-logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
 }
 
 .site-header nav {
@@ -657,7 +668,17 @@ a:focus-visible {
   }
 
   .site-header nav {
-    gap: 18px;
+    gap: clamp(8px, 2.5vw, 18px);
+  }
+
+  .site-header nav a {
+    font-size: 0.68rem;
+    letter-spacing: 0.04em;
+  }
+
+  .site-logo img {
+    width: 32px;
+    height: 32px;
   }
 
   .hero-section {
