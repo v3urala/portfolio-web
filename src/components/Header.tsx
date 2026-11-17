@@ -19,7 +19,7 @@ export function Header() {
         <Link to="/work">Work</Link>
         <Link to="/experience">Experience</Link>
         <Link to="/about">About</Link>
-        <Link to="/contact">Let’s connect</Link>
+        <Link to="/contact">Let’s talk</Link>
       </nav>
     </header>
   )
